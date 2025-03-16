@@ -117,7 +117,7 @@ uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png
 if uploaded_file is not None:
     # Display uploaded image
     image_display = image.load_img(uploaded_file)
-    st.image(image_display, caption="Uploaded Image", use_column_width=True)
+    st.image(image_display, caption="Uploaded Image", use_container_width=True)
 
     if st.button("Predict"):
         label, confidence = predict_image(image_display, model)
