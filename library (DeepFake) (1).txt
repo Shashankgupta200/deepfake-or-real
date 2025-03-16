@@ -1,0 +1,40 @@
+Required Libraries:
+
+1) TensorFlow (for deep learning)
+2) scikit-learn (for dataset splitting)
+3) matplotlib (for plotting)
+4) Pillow (for image processing)
+5) shutil (for file operations, included in Python)
+6) os (for file and directory management, included in Python)
+
+
+
+Installation Commands:
+Run the following in a Jupyter Notebook cell:
+
+!pip install tensorflow scikit-learn matplotlib pillow
+
+
+
+
+Check Installation:
+To verify that everything is installed correctly, run:
+
+import tensorflow as tf
+import sklearn
+import matplotlib
+import matplotlib.pyplot as plt
+from PIL import Image
+
+print("TensorFlow Version:", tf.__version__)
+print("Scikit-Learn Version:", sklearn.__version__)
+print("Matplotlib Version:", matplotlib.__version__)
+print("Pillow Version:", Image.__version__)
+
+
+
+Dataset (Kaggle Download):
+
+https://storage.googleapis.com/kaggle-data-sets/1909705/3134515/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20250218%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20250218T070729Z&X-Goog-Expires=259200&X-Goog-SignedHeaders=host&X-Goog-Signature=4273a51eca2052080602394d7a51ed5c64379d971b7b452731ec255e494aa1924410acfbe23a26ad33ad7fd8b34ccf299dea3692864132cd7ad721b7e5fc238e9c41e1f3fc5c257991bcba8cea7a5212844d872c53a84cbd7bdefc70a6baacbe9d7ed03f5742581bb2d03ac473565243552c1783f318863ec649b7b442d89a4caa8389b7b9d0f322fed18d503fb8ab626cf7b81e74f245c1180ae3fce166ad9625035311885f190564a7675701e0b2bd73009c0701d2d4b00a8e9035f980da1baa9eb46b46a555778b73910aa7b7e673e8c47edbaca444df54e07402631c710a8abc5a96486726055c251dda87f368ecf0c6e03833eb8151109a03dfc94a6a7c
+
+
